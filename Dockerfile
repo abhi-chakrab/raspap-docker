@@ -25,7 +25,7 @@
 # (pointing to the current stable release) of the parent image will be used.
 # However, an alternate parent tag may be set by defining the 'TAG' build
 # argument to a specific Debian release, e.g. 'stretch' or 'buster'.
-ARG  TAG=stable-slim
+ARG  TAG=stable
 FROM arm64v8/debian:${TAG}
 
 
